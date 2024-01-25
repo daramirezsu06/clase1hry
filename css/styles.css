@@ -1,0 +1,123 @@
+header{
+    background-color: #3498dbcf;
+    color: #fff;
+    text-align: center;
+    padding: 1.25rem;
+
+}
+header h1{
+    text-align: center;
+}
+header p{
+    font-size: 1.5em;
+    color: #000;
+}
+
+nav{
+    background-color: #2c3e50;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+nav li {
+    margin: 0;
+    padding: .9375rem;
+  }
+
+nav a{
+    color: white;
+    font-size: 1.875rem;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    border-bottom: .125rem solid #ecf0f1;
+  }
+
+section {
+  background-color: #3498dbcf;
+  color: #2c3e50;
+  margin: .3125rem;
+  padding: 1.25rem;
+  border-radius: .625rem;
+  box-shadow: 0 .625rem .5rem rgba(0, 0, 0, 0.1);;
+  margin-bottom: 1.25rem;
+  text-align: center;
+  transition: background-color 0.5s ease;
+}
+
+section:hover {
+    background-color: rgb(47, 47, 216);
+
+}
+section h2 {
+    color: white;
+}
+
+section ul, ol {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+section aside {
+    border: .125rem solid #3498dbcf;
+    border-radius: .5rem;
+    padding: .9375rem;
+    background-color: #ecf0f1;
+    transition: background-color 0.3s ease;
+}
+section article {
+    border: .125rem solid #3498dbcf;
+    border-radius: .5rem;
+    padding: .9375rem;
+    background-color: #ecf0f1;
+    transition: background-color 0.3s ease;
+}
+section:hover aside {
+    background-color:  background-color: #d4e6f1;
+}
+section article h3 {
+    color: #3498dbcf;
+}
+section aside h2 {
+    color: #3498dbcf;
+}
+
+ul img {
+    width: 4.375rem;
+    height: 4.375rem;
+    border-radius: 50%;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+ul img:hover {
+    transform: scale(1.2);
+}
+
+#PLANES li{
+    padding: 1.25rem;
+    margin: .3125rem;
+    background-color: orange;
+    max-width: 15%;
+
+    border-radius: .625rem;
+
+}
+#PLANES ul{
+    flex-wrap: wrap;
+    
+}
+
+footer{
+    text-align: center;
+}
